@@ -1,0 +1,9 @@
+sdiff -s accept10-1.rb correct10-1.rb 
+
+line	accept10-1.rb:						correct10-1.rb
+
+3	dna = 'ACGAATT\tACTTTAGC'				| dna = 'ACGAATT ACTTTAGC'
+6	print "Here is the starting DNA:\t"                     | print "Here is the starting DNA: "
+7	print "#{dna}\n\n"                                      | print "#{dna}\n"
+9	print "Here is the result:\n\n"                         | print "Here is the result: "
+10	puts "#{rna}\n"                                         | print "#{rna}\n"
